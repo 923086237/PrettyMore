@@ -13,7 +13,7 @@
   <sql id="Base_Column_List">
     id, no, type, msg, createtime, data
   </sql>
-  <insert id="insert" parameterType="com.qfedu.mm.pojo.user.UserLog">
+  <insert id="insert" parameterType="com.wjt.mm.pojo.user.UserLog">
     insert into t_userlog (uno, type,  msg, createtime, data)
     values ( #{uno,jdbcType=VARCHAR}, #{type,jdbcType=INTEGER},#{msg,jdbcType=VARCHAR}, now(), #{data,jdbcType=LONGVARCHAR} )
   </insert>

@@ -1,6 +1,8 @@
 package com.wjt.mm.pojo.user;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
     private String no;
 
     private String phone;

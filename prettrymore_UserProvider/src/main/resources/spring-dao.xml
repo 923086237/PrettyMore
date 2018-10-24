@@ -20,7 +20,7 @@
 
     <!--扫描-->
     <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.qfedu.mm.mapper.user"></property>
+        <property name="basePackage" value="com.wjt.mm.mapper.user"></property>
     </bean>
 
 </beans>

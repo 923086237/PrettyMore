@@ -6,7 +6,7 @@ import com.wjt.mm.pojo.user.User;
 
 /**
  * @author Barrior丶
- * @date 2018/10/23 22:32
+ * @date 2018/10/24 21:42
  */
 public interface UserService {
     //新增

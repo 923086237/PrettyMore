@@ -19,7 +19,7 @@
 
         <dependency>
             <groupId>com.wjt</groupId>
-            <artifactId>prottymore_Service</artifactId>
+            <artifactId>prettymore_Service</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>

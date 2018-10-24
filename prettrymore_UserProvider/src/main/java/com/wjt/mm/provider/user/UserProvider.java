@@ -28,8 +28,7 @@ public class UserProvider implements UserService {
     @Autowired
     private UserLogMapper userLogMapper;
 
-    @Autowired
-    private UseRegister useRegister;
+ 
 
     @Override
     public R register(User user) {
