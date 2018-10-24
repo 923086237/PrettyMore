@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wjt.mm.mapper.user.IDCardMapper">
+  <resultMap id="BaseResultMap" type="com.wjt.mm.pojo.user.IDCard">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="cardno" jdbcType="VARCHAR" property="cardno" />
+    <result column="fontimgurl" jdbcType="VARCHAR" property="fontimgurl" />
+    <result column="reverseimgurl" jdbcType="VARCHAR" property="reverseimgurl" />
+    <result column="handimgurl" jdbcType="VARCHAR" property="handimgurl" />
+    <result column="check" jdbcType="INTEGER" property="check" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, cardno, fontimgurl, reverseimgurl, handimgurl, check
+  </sql>
+  <insert id="insert" parameterType="com.wjt.mm.pojo.user.IDCard">
+    insert into t_card (cardno, fontmgurl, reverseImgUrl, handImgurl, checkstatus)
+    values ( #{cardno,jdbcType=VARCHAR}, #{fontmgurl,jdbcType=VARCHAR},
+      #{reverseimgurl,jdbcType=VARCHAR}, #{handimgurl,jdbcType=VARCHAR}, #{checkstatus,jdbcType=INTEGER})
+  </insert>
+
+  <update id="updateByPrimaryKey" parameterType="com.wjt.mm.pojo.user.IDCard">
+    update t_card
+    set cardno = #{cardno,jdbcType=VARCHAR},
+      fontmgurl = #{fontmgurl,jdbcType=VARCHAR},
+      reverseImgUrl = #{reverseimgurl,jdbcType=VARCHAR},
+      handImgurl = #{handimgurl,jdbcType=VARCHAR},
+      checkstatus = #{checkstatus,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

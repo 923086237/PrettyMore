@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/prettrymore_UserProvider" />
+    <file type="web" url="file://$PROJECT_DIR$/prettymore_LoanProvider" />
+    <file type="web" url="file://$PROJECT_DIR$/prettymore_MQSys" />
+    <file type="web" url="file://$PROJECT_DIR$/prettymore_Provider" />
+    <file type="web" url="file://$PROJECT_DIR$/prettymore_SSOData" />
+    <file type="web" url="file://$PROJECT_DIR$/prettymore_SSOProvider" />
+    <file type="web" url="file://$PROJECT_DIR$/prettymore_WebApp" />
+    <file type="web" url="file://$PROJECT_DIR$/prettymore_WebData" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/prettymore_Provider/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
